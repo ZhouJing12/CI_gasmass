@@ -1,0 +1,260 @@
+Title: The Global Star Formation Laws of Galaxies 
+       from a Radio Continuum Perspective  
+Authors: Liu L., Gao Y., Greve T.R. 
+Table: Surface Density
+================================================================================
+Byte-by-byte Description of file: apj510579t2_mrt.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units             Label    Explanations
+--------------------------------------------------------------------------------
+   1- 15 A15    ---               Type     Galaxy type
+  17- 29 A13    ---               Name     Identifier
+  31- 39 A9     arcsec            Dia      Diameter (1)
+  41- 45 F5.2   [solMass/pc2]     logSHI   ? Log H I atomic surface density
+  47- 51 F5.2   [solMass/pc2]     logSH2a  Log molecular H_2_ gas mass 
+                                            surface density (2)
+  53- 57 F5.2   [solMass/pc2]     logSH2b  Log molecular H_2_ gas mass 
+                                            surface density (3)
+  59- 63 F5.2   [solMass/pc2]     logSgas  Log total gas surface density
+  65- 69 F5.2   [solMass/pc2]     logSden  ? Log dense molecular gas 
+                                            surface density
+  71- 75 F5.2   [solMass/yr/kpc2] logSIR   Log 8-1000 micron star formation rate
+  77- 81 F5.2   [solMass/yr/kpc2] logSRC   Log 1.4 GHz radio continuum
+                                            star formation rate
+  83- 97 A15    ---               Ref      References (4)
+--------------------------------------------------------------------------------
+Note (1): Deconvolved major axes.
+Note (2): Calculated using a fixed CO-to-H2 conversion factor value of 
+          4.6 solar masses (K km/s pc^2^)^-1^.
+Note (3): Calculated using continuously-varying {alpha}_CO_.
+Note (4): The (J)VLA observation project codes were given for the radio images 
+          reduced in this work. Two project codes were given in the cases that 
+          the data sets from two different (J)VLA configurations were combined.
+          For interacting galaxies which clearly show two independent 
+          components, such as Arp 055 and Arp 220, we gave the radio sizes 
+          for both components.
+Radio Map:
+   1 = Condon (1987); 
+   2 = Buczilowski & Beck (1987); 
+   3 = Braun et al. (2007); 
+   4 = Condon et al. (1996); 
+   5 = Condon et al. (1990);
+   6 = Irwin et al. (1999);
+   7 = Condon et al. (1991); 
+   8 = Ulvestad & Wilson (1989); 
+   9 = Condon et al. (2002); 
+  10 = Mauch et al. (2008); 
+  11 = NRAO Image Archive; 
+  12 = Becker et al. (2003);
+H I atomic serface density:
+  13 = Walter et al. (2008); 
+  14 = Chung et al. (2009a); 
+  15 = van der Hulst (2002); 
+  16 = Hunter et al. (2012); 
+  17 = Martin (1998); 
+  18 = Cayatte et al. (1994); 
+  19 = Rhee & van Albada (1996); 
+  20 = Chamaraux et al. (1986); 
+  21 = Giovanardi et al. (1983); 
+  22 = Fouque (1984); 
+  23 = Bottinelli et al. (1970); 
+  24 = Whiteoak & Gardner (1977); 
+  25 = Laine & Gottesman (1998); 
+  26 = Ott et al. (2001); 
+  27 = Stanford (1990); 
+  28 = Ondrechen et al. (1989); 
+  29 = Saikia et al. (1990); 
+  30 = Irwin & Seaquist (1991); 
+  31 = Noordermeer et al. (2005); 
+  32 = Hurt et al. (1996); 
+  33 = Ryan-Weber et al. (2003); 
+  34 = Freeland et al. (2009); 
+  35 = Helou et al. (1981); 
+  36 = Liszt & Dickey (1995); 
+  37 = Kobulnicky et al. (1995); 
+  38 = Oosterloo et al. (2010); 
+  39 = Gallagher et al. (1975); 
+  40 = Li & Seaquist (1994).
+--------------------------------------------------------------------------------
+Normal Galaxies NGC 0134      150        0.29  0.66  0.93  0.81  0.02 -1.83 -1.84 4, 33           
+Normal Galaxies NGC 0174      5.1              3.39  3.02  3.39  2.88  0.67  0.37 AU23,           
+Normal Galaxies NGC 0253      96         0.82  3.09  2.81  3.09  2.06  0.05  0.04 1, 24           
+Normal Galaxies NGC 0520      4.5        0.73  4.28  3.62  4.28  2.94  1.19  1.19 AC205, 27       
+Normal Galaxies NGC 0598      1713       0.89 -0.39 -0.12  0.91       -2.45 -2.34 2, 18           
+Normal Galaxies NGC 0628      329        0.62  0.86  1.13  1.06       -2.47 -2.41 1, 13           
+Normal Galaxies NGC 0660      18         0.19  3.43  3.04  3.43  1.99  0.37  0.34 AL296, 17       
+Normal Galaxies NGC 0772      79         0.48  1.9   2.    1.92       -1.7  -1.69 1, 19           
+Normal Galaxies NGC 0891      238        0.21  1.3   1.57  1.33  0.1  -1.76 -1.65 4, 17           
+Normal Galaxies NGC 0925      186        0.85  0.93  1.2   1.19       -2.35 -2.33 1, 13           
+Normal Galaxies NGC 0931      50              -0.14  0.13 -0.14  0.65 -1.66 -2.02 9,              
+Normal Galaxies NGC 1022      5.0        0.4   3.61  3.17  3.61  2.62  0.96  0.67 AG278+AL377, 20 
+Normal Galaxies NGC 1055      90         0.72  1.92  2.02  1.95  0.64 -1.33 -1.3  1, 17           
+Normal Galaxies NGC 1058      90         0.5   0.78  1.05  0.96       -2.04 -2.21 AP404, 15       
+Normal Galaxies NGC 1097      28         0.14  2.42  2.36  2.42       -0.08 -0.02 AB775, 28       
+Normal Galaxies NGC 1266      5.1              3.87  3.34  3.87  2.78  0.69  0.89 11,             
+Normal Galaxies NGC 1530      31         0.77  2.18  2.2   2.2   1.04 -0.85 -0.9  4, 15           
+Normal Galaxies NGC 1569      74         1.26  0.52  0.79  1.33       -0.86 -0.68 1, 16           
+Normal Galaxies NGC 1667      33               1.7   1.87  1.7   1.65 -1.11 -0.9  AA281,          
+Normal Galaxies NGC 1808      17         0.72  3.26  2.93  3.26  2.62  0.61  0.51 AD231, 29       
+Normal Galaxies NGC 2273      1.7        0.3   3.6   3.16  3.6   3.38  1.47  1.55 AY044, 31       
+Normal Galaxies NGC 2276      76         1.02  1.19  1.46  1.41  0.12 -1.51 -1.04 1, 15           
+Normal Galaxies NGC 2403      328        0.85  0.18  0.45  0.93       -2.15 -2.15 1, 13           
+Normal Galaxies NGC 2764      9.4        0.93  2.71  2.55  2.72  1.25 -0.26 -0.48 11, 20          
+Normal Galaxies NGC 2841      216        0.44  1.09  1.36  1.18       -2.55 -2.35 1, 13           
+Normal Galaxies NGC 2903      122        0.74  1.77  1.92  1.81  0.56 -1.22 -1.21 1, 13           
+Normal Galaxies NGC 2976      154        0.9   0.89  1.16  1.2        -1.85 -1.97 1, 13           
+Normal Galaxies NGC 3031      466        0.35  0.2   0.47  0.58       -2.31 -2.27 1, 18           
+Normal Galaxies NGC 3032      15        -0.16  2.1   2.14  2.1   0.9  -0.81 -1.   12, 38          
+Normal Galaxies NGC 3079      38         0.44  2.83  2.64  2.83  1.78 -0.4   0.01 ASTUD, 30       
+Normal Galaxies NGC 3147      60         0.28  2.06  2.11  2.07  0.42 -1.35 -1.3  1, 15           
+Normal Galaxies NGC 3310      32         0.97  1.62  1.81  1.71       -0.43 -0.45 AD176, 15       
+Normal Galaxies NGC 3338      145        0.59  0.44  0.71  0.82       -2.55 -2.42 1, 19           
+Normal Galaxies NGC 3351      16         0.28  3.25  2.93  3.25        0.08 -0.22 AO73, 13        
+Normal Galaxies NGC 3368      97         0.58  1.3   1.57  1.38       -1.78 -1.91 1, 18           
+Normal Galaxies NGC 3486      129        0.91  0.94  1.21  1.23       -2.09 -1.94 1, 18           
+Normal Galaxies NGC 3504      8.0        0.43  3.48  3.08  3.48  2.59  0.6   0.88 AS204, 31       
+Normal Galaxies NGC 3521      166        1.03  1.94  2.03  1.99       -1.55 -1.54 1, 13           
+Normal Galaxies NGC 3556      185        1.12  0.96  1.23  1.35 -0.26 -1.86 -1.8  1, 15           
+Normal Galaxies NGC 3620      26               2.41  2.35  2.41  1.86 -0.16 -0.4  10,             
+Normal Galaxies NGC 3627      160        0.73  1.73  1.89  1.77 -0.03 -1.43 -1.41 1, 13           
+Normal Galaxies NGC 3628      71         0.85  2.42  2.36  2.43  1.3  -0.85 -0.73 1, 21           
+Normal Galaxies NGC 3631      85               1.67  1.85  1.67       -1.64 -1.63 1,              
+Normal Galaxies NGC 3665      31               1.44  1.69  1.44  0.46 -1.48 -0.86 11,             
+Normal Galaxies NGC 3675      89         0.56  1.74  1.9   1.77       -1.55 -1.74 1, 18           
+Normal Galaxies NGC 3726      174        0.8   0.86  1.13  1.13       -2.37 -2.43 1, 15           
+Normal Galaxies NGC 3893      81         1.19  1.46  1.71  1.65  0.65 -1.45 -1.38 1, 15           
+Normal Galaxies NGC 3938      149        0.82  1.1   1.37  1.28       -2.1  -2.1  1, 18           
+Normal Galaxies NGC 4030      74         0.55  2.02  2.09  2.03  0.91 -1.31 -1.3  1, 22           
+Normal Galaxies NGC 4038      49               2.16  2.18  2.16  0.6  -0.66 -0.72 9,              
+Normal Galaxies NGC 4041      35               2.26  2.25  2.26  1.03 -0.8  -0.81 AC101,          
+Normal Galaxies NGC 4150      17        -0.31  1.74  1.9   1.74  0.59 -0.65 -1.21 11, 15          
+Normal Galaxies NGC 4178      166        0.93 -0.18  0.09  0.96       -2.8  -2.53 1, 18           
+Normal Galaxies NGC 4189      73         0.88  1.16  1.43  1.34       -1.96 -2.   9, 14           
+Normal Galaxies NGC 4254      137        0.96  1.66  1.84  1.74       -1.54 -1.4  1, 14           
+Normal Galaxies NGC 4258      207        0.57  1.28  1.55  1.36       -1.97 -1.59 BG062, 18       
+Normal Galaxies NGC 4294      56         1.3   0.59  0.86  1.38       -1.8  -1.7  AV298, 14       
+Normal Galaxies NGC 4299      45         1.29  0.78  1.05  1.41       -1.6  -1.54 AV298, 14       
+Normal Galaxies NGC 4303      136        0.84  1.5   1.73  1.59       -1.57 -1.37 1, 18           
+Normal Galaxies NGC 4321      123        0.51  1.68  1.86  1.71       -1.6  -1.51 1, 14           
+Normal Galaxies NGC 4394      75        -0.6   1.18  1.45  1.19       -2.3  -3.11 1, 14           
+Normal Galaxies NGC 4402      54         0.87  1.74  1.89  1.79       -1.43 -1.58 5, 14           
+Normal Galaxies NGC 4414      71         0.51  2.25  2.24  2.26  0.93 -1.02 -0.94 1, 19           
+Normal Galaxies NGC 4459      6.5              2.61  2.48  2.61  2.02 -0.03 -0.65 12,             
+Normal Galaxies NGC 4501      121        0.6   1.65  1.83  1.69       -1.64 -1.47 1, 14           
+Normal Galaxies NGC 4519      88               0.67  0.94  0.67       -2.1  -2.16 1,              
+Normal Galaxies NGC 4526      11         0.71  2.66  2.52  2.66  1.87 -0.12 -0.49 5, 39           
+Normal Galaxies NGC 4535      133        0.57  1.4   1.66  1.46       -1.99 -2.04 1, 14           
+Normal Galaxies NGC 4548      96        -0.26  1.37  1.64  1.38       -2.32 -2.67 AB342+AC101, 14 
+Normal Galaxies NGC 4561      57         1.2   1.05  1.32  1.43       -2.14 -2.07 9, 14           
+Normal Galaxies NGC 4569      85         0.61  1.9   2.    1.92  0.39 -1.61 -1.62 1, 14           
+Normal Galaxies NGC 4571      94               1.12  1.39  1.12       -2.43 -2.59 1,              
+Normal Galaxies NGC 4579      57         0.1   1.92  2.02  1.93       -1.4  -1.23 1, 14           
+Normal Galaxies NGC 4631      298        0.37  0.75  1.02  0.9  -0.47 -1.9  -1.62 1, 17           
+Normal Galaxies NGC 4639      83         0.64  1.22  1.49  1.32       -2.3  -2.38 AK205, 18       
+Normal Galaxies NGC 4647      74         0.59  1.54  1.76  1.59       -1.68 -1.64 9, 18           
+Normal Galaxies NGC 4651      54         0.91  1.56  1.78  1.65       -1.48 -1.52 1, 14           
+Normal Galaxies NGC 4654      108        0.93  1.27  1.54  1.43       -1.75 -1.71 1, 14           
+Normal Galaxies NGC 4689      68         0.49  1.72  1.88  1.74       -2.08 -2.05 1, 14           
+Normal Galaxies NGC 4698      81         0.27  0.62  0.89  0.78       -2.55 -2.96 AC101+AB342, 14 
+Normal Galaxies NGC 4710      11               2.79  2.61  2.79  1.81 -0.13 -0.4  5,              
+Normal Galaxies NGC 4713      66         1.17  0.69  0.96  1.29       -1.83 -1.61 AV298, 14       
+Normal Galaxies NGC 4736      104        0.91  1.89  2.    1.93       -1.01 -1.09 1, 13           
+Normal Galaxies NGC 4826      39         0.88  2.64  2.51  2.65  1.47 -0.51 -0.84 AS541, 13       
+Normal Galaxies NGC 4945      47        -0.02  3.52  3.1   3.52  2.33  0.51  0.53 10, 26          
+Normal Galaxies NGC 5005      69         0.11  2.21  2.22  2.21  1.25 -1.15 -1.11 1, 22           
+Normal Galaxies NGC 5033      63         0.79  2.09  2.13  2.11  0.85 -1.13 -1.02 1, 18           
+Normal Galaxies NGC 5055      185        0.7   1.62  1.81  1.67  0.18 -1.63 -1.62 1, 13           
+Normal Galaxies NGC 5194      284        0.58  1.58  1.79  1.62 -0.44 -1.78 -1.48 1, 13           
+Normal Galaxies NGC 5236      321        0.44  1.59  1.79  1.62 -0.13 -1.44 -1.37 1, 13           
+Normal Galaxies NGC 5347      36         0.58  0.56  0.83  0.87  0.51 -1.55 -1.81 9, 15           
+Normal Galaxies NGC 5457      452        0.58  1.12  1.39  1.23       -2.14 -2.06 AC101+AF085, 13 
+Normal Galaxies NGC 5678      57         1.02  1.88  1.99  1.94  0.9  -1.36 -1.22 9, 19           
+Normal Galaxies NGC 5713      33         0.96  2.15  2.17  2.18  1.01 -0.63 -0.59 AL377, 23       
+Normal Galaxies NGC 5775      115        0.62  1.3   1.57  1.38  0.35 -1.63 -1.47 6, 24           
+Normal Galaxies NGC 5861      73               1.08  1.35  1.08 -0.13 -1.57 -1.88 9,              
+Normal Galaxies NGC 5936      9.0              2.79  2.61  2.79  1.81  0.12  0.04 5,              
+Normal Galaxies NGC 6014      4.4              3.01  2.76  3.01  1.76  0.01 -0.15 11,             
+Normal Galaxies NGC 6207      76         0.82  0.72  0.99  1.07       -1.91 -1.78 9, 19           
+Normal Galaxies NGC 6217      16               2.73  2.57  2.73       -0.23 -0.24 AC205+AC101,    
+Normal Galaxies NGC 6503      118        0.68  1.35  1.62  1.43       -1.77 -1.93 1, 19           
+Normal Galaxies NGC 6643      74         1.08  1.48  1.72  1.63       -1.48 -1.51 4, 15           
+Normal Galaxies NGC 6814      93         0.73  0.75  1.02  1.04  0.08 -1.85 -1.89 9, 36           
+Normal Galaxies NGC 6946      318        0.87  1.56  1.78  1.64  0.56 -1.68 -1.51 1, 13           
+Normal Galaxies NGC 6951      82         0.27  1.82  1.95  1.83  0.41 -1.46 -1.7  9, 35           
+Normal Galaxies NGC 7252      5.0              3.04  2.78  3.04        0.26  0.26 AN90,           
+Normal Galaxies NGC 7331      146        0.91  1.88  1.99  1.92  0.35 -1.52 -1.56 1, 13           
+Normal Galaxies NGC 7465      7.5        0.86  2.84  2.65  2.84  1.11  0.07 -0.07 11, 40          
+Normal Galaxies NGC 7479      97.9       0.79  1.43  1.68  1.52  0.37 -1.67 -1.7  1, 25           
+Normal Galaxies NGC 7582      35         0.31  2.24  2.23  2.25  1.29 -0.33 -0.4  4, 34           
+Normal Galaxies UGC 4013      32               0.55  0.82  0.55  0.61 -1.86 -1.99 AC345,          
+Normal Galaxies He 2-10       9.1        0.93  3.34  2.98  3.34  1.92  0.58  0.43 AH173, 37       
+Normal Galaxies IC 342        529        0.32  1.59  1.79  1.61  0.32 -2.   -1.81 1, 17           
+Normal Galaxies IC 676        6.2              2.9   2.69  2.9   1.59  0.12 -0.04 11,             
+Normal Galaxies Maffei 2      23.3       0.54  3.96  3.41  3.96  2.41  0.42  0.24 AH407, 32       
+(U)LIRGs        Arp 055       2.2+0.8          4.    3.43  4.    2.89  1.15  1.08 5,              
+(U)LIRGs        Arp 148       0.24             5.66  4.56  5.66  5.02  3.16  2.88 7,              
+(U)LIRGs        Arp 193       2.9              3.84  3.32  3.84  2.94  1.37  1.34 5,              
+(U)LIRGs        Arp 220       0.34+0.22        6.02  4.81  6.02  5.43  3.81  3.55 7,              
+(U)LIRGs        IC 0883       2.2              4.14  3.53  4.14        1.61  1.58 AB370,          
+(U)LIRGs        IC 1623       15               3.    2.75  3.    2.13  0.14  0.22 AS267,          
+(U)LIRGs        IC 5179       33               2.1   2.14  2.1   1.58 -0.56 -0.57 4,              
+(U)LIRGs        III Zw 35     0.18             5.77  4.64  5.77  5.27  3.63  3.35 7,              
+(U)LIRGs        IR 00335-2732 0.36             4.8   3.98  4.8   5.12  2.57  2.19 AN054,          
+(U)LIRGs        IR 00506+7248 3.2              3.41  3.03  3.41  2.28  1.05  0.93 11,             
+(U)LIRGs        IR 01364-1042 0.19             5.59  4.52  5.59  5.33  3.29  2.93 7,              
+(U)LIRGs        IR 03056+2034 0.47             5.12  4.19  5.12  3.98  2.45  2.14 11,             
+(U)LIRGs        IR 05189-2524 0.22             5.76  4.63  5.76  5.09  3.57  3.03 7,              
+(U)LIRGs        IR 05414+5840 4.9              3.72  3.24  3.72  2.84  0.92  0.88 AS192+AM293,    
+(U)LIRGs        IR 07329+1149 5.1              3.4   3.02  3.4   2.45  1.06  0.91 AC685+AC345,    
+(U)LIRGs        IR 08071+0509 1.2              4.18  3.55  4.18  3.47  1.63  1.54 AB660,          
+(U)LIRGs        IR 10039-3338 0.72             4.58  3.83  4.58  4.29  2.33  1.91 11,             
+(U)LIRGs        IR 10173+0828 0.13             5.98  4.78  5.98  5.15  3.58  3.06 AS530,          
+(U)LIRGs        IR 10565+2448 0.80             4.57  3.82  4.57  4.18  2.33  2.21 7,              
+(U)LIRGs        IR 11506-3851 3.8              3.68  3.21  3.68  3.51  1.44  1.08 AM93,           
+(U)LIRGs        IR 12112+0305 0.16+0.12        5.56  4.49  5.56  5.    3.33  3.04 AN122,          
+(U)LIRGs        IR 13126+2452 0.36             5.74  4.62  5.74  4.38  3.18  2.62 11,             
+(U)LIRGs        IR 16399-0937 10.8+5.1         2.4   2.35  2.4   1.33 -0.09 -0.16 AB660,          
+(U)LIRGs        IR 17138-1017 5.9              3.16  2.86  3.16  1.97  0.75  0.55 4,              
+(U)LIRGs        IR 17208-0014 0.58             5.14  4.21  5.14  4.63  2.97  2.71 AH640,          
+(U)LIRGs        IR 17526+3253 1.6+1.3          3.87  3.35  3.87  2.98  1.08  0.97 AM293,          
+(U)LIRGs        IR 18090+0130 3.0              3.59  3.15  3.59  2.5   1.09  1.06 AB275,          
+(U)LIRGs        IR 18293-3413 12               3.1   2.82  3.1   2.16  0.49  0.45 4,              
+(U)LIRGs        IR 20550+1656 7.3+5.1          2.49  2.41  2.49  1.6   0.27 -0.01 AT149,          
+(U)LIRGs        IR 22025+4205 1.0              4.44  3.73  4.44  4.18  1.95  1.79 AM293,          
+(U)LIRGs        IR 23365+3604 0.21             5.55  4.49  5.55  5.18  3.28  3.07 AB660,          
+(U)LIRGs        Mrk 0231      0.44             5.12  4.2   5.12  4.99  3.35  3.35 5,              
+(U)LIRGs        Mrk 0266      13               2.58  2.47  2.58  1.14  0.07  0.07 5,              
+(U)LIRGs        Mrk 0273      0.32+0.17        5.4   4.38  5.4   5.07  3.25  3.29 7,              
+(U)LIRGs        Mrk 0331      2.53             4.2   3.57  4.2   3.35  1.55  1.3  AC243,          
+(U)LIRGs        Mrk 1027      11               2.53  2.44  2.53  1.61 -0.22 -0.1  5,              
+(U)LIRGs        NGC 0023      8.0              2.91  2.69  2.91  1.85  0.35  0.26 AD255,          
+(U)LIRGs        NGC 0034      0.4              5.62  4.54  5.62  5.37  3.09  2.82 7,              
+(U)LIRGs        NGC 0695      13               2.59  2.47  2.59  1.65 -0.18 -0.1  5,              
+(U)LIRGs        NGC 0828      12               3.11  2.83  3.11  1.46  0.09  0.11 4,              
+(U)LIRGs        NGC 1068      7.3              4.46  3.75  4.46  3.8   1.92  2.21 BG066,          
+(U)LIRGs        NGC 1144      10               2.82  2.63  2.82  1.59 -0.08  0.44 AC205,          
+(U)LIRGs        NGC 1365      20               3.45  3.06  3.45  2.7   0.55  0.23 AC348,          
+(U)LIRGs        NGC 1614      2.2              4.3   3.64  4.3   3.22  1.96  1.71 AL503,          
+(U)LIRGs        NGC 2146      27               3.02  2.76  3.02  2.21  0.44  0.42 3,              
+(U)LIRGs        NGC 2369      28               2.33  2.3   2.33  1.53 -0.43 -0.48 10,             
+(U)LIRGs        NGC 2388      5.5              3.41  3.03  3.41  2.45  0.87  0.58 11,             
+(U)LIRGs        NGC 2623      0.46             5.39  4.38  5.39  4.49  3.07  2.91 7,              
+(U)LIRGs        NGC 3034      43               3.46  3.07  3.46  2.44  1.05  0.87 AW624+AS250,    
+(U)LIRGs        NGC 3110      20               2.16  2.18  2.16  1.11 -0.38 -0.24 5,              
+(U)LIRGs        NGC 3256      12               3.49  3.09  3.49  2.56  0.95  0.91 AS412+AR531,    
+(U)LIRGs        NGC 3690      27               2.41  2.35  2.41  1.63  0.3   0.21 AY102,          
+(U)LIRGs        NGC 5135      6.5+0.7          3.48  3.08  3.48  2.75  0.76  0.91 8,              
+(U)LIRGs        NGC 5653      19               2.27  2.25  2.27  1.19 -0.32 -0.44 5,              
+(U)LIRGs        NGC 6240      8.6              3.09  2.81  3.09  2.67  0.57  0.98 4,              
+(U)LIRGs        NGC 6701      22               2.38  2.33  2.38  1.32 -0.49 -0.48 4,              
+(U)LIRGs        NGC 6921      4.1              3.8   3.3   3.8   3.04  0.97  0.46 AC264,          
+(U)LIRGs        NGC 7130      0.6              5.51  4.46  5.51  4.71  2.79  2.96 AK394,          
+(U)LIRGs        NGC 7469      3.3              3.91  3.37  3.91  3.03  1.56  1.47 AL490,          
+(U)LIRGs        NGC 7552      7.2+6.1          3.5   3.09  3.5   2.64  1.09  0.74 AS721,          
+(U)LIRGs        NGC 7591      0.94             4.71  3.91  4.71  3.59  2.07  1.92 AC685,          
+(U)LIRGs        NGC 7771      16.97            2.59  2.48  2.59  2.05  0.01 -0.06 5,              
+(U)LIRGs        UGC 1845      3.1              3.8   3.29  3.8   2.88  1.15  1.07 AC301+AT149,    
+(U)LIRGs        UGC 5101      0.41             5.12  4.2   5.12  4.84  2.93  3.26 AA095+AS402,    
+(U)LIRGs        VII Zw 31     3.6              3.65  3.19  3.65  2.66  0.76  0.76 4,              
+(U)LIRGs        ZW 049.057    0.54             5.1   4.18  5.1   4.7   2.92  2.5  5,              
+
